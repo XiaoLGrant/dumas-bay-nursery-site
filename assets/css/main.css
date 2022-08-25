@@ -2156,10 +2156,10 @@
 
 
 	#topSeller1 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)), url("../../images/monstera.webp");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)), url("../../images/monstera.webp");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)),  url("../../images/monstera.webp");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)),  url("../../images/monstera.webp");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)), url("../../images/monstera.webp");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)), url("../../images/monstera.webp");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)),  url("../../images/monstera.webp");
+		background-image: linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)),  url("../../images/monstera.webp");
 		background-position: center 15%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2173,10 +2173,10 @@
 	}
 
 	#topSeller2 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)), url("../../images/zzPlant.webp");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)), url("../../images/zzPlant.webp");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)),  url("../../images/zzPlant.webp");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)),  url("../../images/zzPlant.webp");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)), url("../../images/zzPlant.webp");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)), url("../../images/zzPlant.webp");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)),  url("../../images/zzPlant.webp");
+		background-image: linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)),  url("../../images/zzPlant.webp");
 		background-position: center 20%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2185,10 +2185,10 @@
 	}
 
 	#topSeller3 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)), url("../../images/ficus.webp");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)), url("../../images/ficus.webp");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)),  url("../../images/ficus.webp");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)),  url("../../images/ficus.webp");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)), url("../../images/ficus.webp");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)), url("../../images/ficus.webp");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)),  url("../../images/ficus.webp");
+		background-image: linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)),  url("../../images/ficus.webp");
 		background-position: center 40%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2197,10 +2197,10 @@
 	}
 
 	#topSeller4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)), url("../../images/calatheaLietzei.webp");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)), url("../../images/calatheaLietzei.webp");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)),  url("../../images/calatheaLietzei.webp");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.15)),  url("../../images/calatheaLietzei.webp");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)), url("../../images/calatheaLietzei.webp");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)), url("../../images/calatheaLietzei.webp");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)),  url("../../images/calatheaLietzei.webp");
+		background-image: linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.35)),  url("../../images/calatheaLietzei.webp");
 		background-position: center 40%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -2644,7 +2644,7 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		padding-left: 2em;
 	}
 
 		ul li {
@@ -4075,4 +4075,12 @@
 				padding: 2.5em 1em 3em 1em;
 			}
 
+	}
+
+	.materialsList {
+		margin-bottom: 0;
+	}
+
+	li > ul {
+		margin-bottom: 0;
 	}

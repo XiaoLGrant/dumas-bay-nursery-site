@@ -1,9 +1,3 @@
-/*
-	Alpha by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
 
 	var	$window = $(window),
@@ -86,12 +80,13 @@
 // Table Tabs
 const tabs = document.querySelectorAll('[data-tab-value]')
 const tabInfos = document.querySelectorAll('[data-tab-info]')
-
+// const tabsArray = [...document.querySelectorAll('[data-tab-value]')]
 tabs.forEach(tab => {
 	tab.addEventListener('click', () => {
 		const target = document.querySelector(tab.dataset.tabValue);
-		
-		// document.querySelector('[data-tab-value]').style = 'font-weight: bold';
+		// console.log(tabsArray)
+		// let getPlantsTitleClass = tab.dataset.tabValue.split('#').join('')
+		// document.querySelector(`.${getPlantsTitleClass}`).style = 'font-weight: bold';
 		tabInfos.forEach(tabInfo => {
 			tabInfo.classList.remove('active')
 		})
