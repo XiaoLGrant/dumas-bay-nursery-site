@@ -4084,3 +4084,8 @@
 	li > ul {
 		margin-bottom: 0;
 	}
+
+	.selectedTab {
+		font-weight: bold;
+		text-decoration: underline;
+	}

@@ -80,18 +80,34 @@
 // Table Tabs
 const tabs = document.querySelectorAll('[data-tab-value]')
 const tabInfos = document.querySelectorAll('[data-tab-info]')
-// const tabsArray = [...document.querySelectorAll('[data-tab-value]')]
 tabs.forEach(tab => {
+
 	tab.addEventListener('click', () => {
 		const target = document.querySelector(tab.dataset.tabValue);
-		// console.log(tabsArray)
-		// let getPlantsTitleClass = tab.dataset.tabValue.split('#').join('')
-		// document.querySelector(`.${getPlantsTitleClass}`).style = 'font-weight: bold';
+		console.log(target)
+		
+		if (target.id === 'fernsTab') {
+			document.querySelector(`.fernsTab`).classList.toggle('selectedTab')
+			document.querySelector('.treesTab').classList.remove('selectedTab')
+			document.querySelector('.perennialsTab').classList.remove('selectedTab')
+		} else if (target.id === 'treesTab') {
+			document.querySelector(`.fernsTab`).classList.remove('selectedTab')
+			document.querySelector('.treesTab').classList.toggle('selectedTab')
+			document.querySelector('.perennialsTab').classList.remove('selectedTab')
+		} else if (target.id === 'perennialsTab') {
+			document.querySelector(`.fernsTab`).classList.remove('selectedTab')
+			document.querySelector('.treesTab').classList.remove('selectedTab')
+			document.querySelector('.perennialsTab').classList.toggle('selectedTab')
+		}
+
 		tabInfos.forEach(tabInfo => {
 			tabInfo.classList.remove('active')
 		})
-		target.classList.add('active');
+		target.classList.add('active');		
 	})
+
+	
+
 })
 
 //Modal Images
